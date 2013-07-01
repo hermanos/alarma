@@ -1,0 +1,48 @@
+users
+=====
+ - id
+ - username 
+ - email
+ - password
+ - name
+ - photo
+// locatia va fi luata prin GPS
+
+alarma
+======
+ - id
+ - user_id: int 
+ - ora :time
+ - priority:int
+ - repeat_monday:int
+ - repeat_tuesday:int
+ - repeat_wednesday:int
+ - repeat_thursday:int
+ - repeat_friday:int
+ - repeat_saturday:int
+ - repeat_sunday:int
+
+preference
+==========
+ - id
+ - user_id:int
+ - option_name:string
+ - option_value:string
+
+
+items
+====
+ - id
+ - alarm_id:int
+ -obtion_name:string
+ -obtion_value:string
+
+messages
+======
+ -id
+ -sender_id:int
+ -receiver_id:int
+ -content:string
+
+
+
