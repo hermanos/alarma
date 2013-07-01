@@ -4,11 +4,16 @@ users
  - username 
  - email
  - password
- - name
- - photo
 // locatia va fi luata prin GPS
 
-alarma
+details
+=======
+ - id
+ - user_id
+ - avatar
+ - photo
+
+alarms
 ======
  - id
  - user_id: int 
@@ -22,20 +27,24 @@ alarma
  - repeat_saturday:int
  - repeat_sunday:int
 
-preference
+preferences
 ==========
  - id
  - user_id:int
  - option_name:string
  - option_value:string
 
+type_alarms
+==========
+- id
+- type_name
+
 
 items
 ====
  - id
  - alarm_id:int
- -obtion_name:string
- -obtion_value:string
+ - type_alarm_id:int
 
 messages
 ======
